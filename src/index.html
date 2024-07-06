@@ -19,11 +19,12 @@ eleventyNavigation:
 <section id="hero">
   <div class="cs-container">
     <div class="cs-flex-group">
-      <span class="cs-topper">mountain hiking society</span>
-      <h1 class="cs-title">Explore the World with Exciting People</h1>
+      <span class="cs-topper">kaizo | malaysia</span>
+      <h1 class="cs-title">Introducing Kaizo</h1>
       <p class="cs-text">
-        Tincidunt lobortis feugiat vivamus at augue eget arcu dictum varius. Nibh tortor id aliquet lectus proin nibh
-        condimentum.
+        At Kaizo, we believe in the power of transformation. 
+        <br>Discover pieces that embody reconfiguration and modification, offering you the freedom to express your unique identity with every outfit. 
+        <br>Kaizo—where fashion meets limitless potential.
       </p>
       <a href="" class="cs-button-solid">Explore More</a>
       <a href="" class="cs-button-transparent">
@@ -42,7 +43,35 @@ eleventyNavigation:
   </div>
 
   <!-- Background Image -->
-  {% image './src/images/landing.jpg', 'mountains', 'cs-picture', 'eager', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
+  {% image './src/images/kaizo_blue_bg.png', 'mountains', 'cs-picture', 'eager', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
+</section>
+
+
+<!-- ============================================ -->
+<!--                   Gallery                    -->
+<!-- ============================================ -->
+
+<section id="gallery">
+  <div class="cs-container">
+    <span class="cs-topper">Launch Design</span>
+    <h2 class="cs-title">Two well-crafted design</h2>
+    <div class="cs-image-group">
+      <!-- Row 1-->
+      <div class="cs-row cs-row-1">
+        {% image './src/images/tshirts/kaizo_1_alt.png', 'new hallway', 'cs-picture cs-picture-3', 'lazy', '(max-width: 3000px) 1000px, 1000px'%}
+        <!-- {% image './src/images/tshirts/kaizo_1_alt.png', 'new home construction', 'cs-picture cs-picture-2', 'lazy', '(max-width: 600px) 200px, 400px'%} -->
+        <!-- {% image './src/images/portfolio/port7.jpg', 'building a new wall', 'cs-picture cs-picture-3', 'lazy', '(max-width: 600px) 200px, 400px'%} -->
+        <!-- To add more images, copy and paste this row's picture tags here in order from cs-picture-1 to cs-picture-3 and they will maintain the same layout-->
+      </div>
+      <div class="cs-row cs-row-1">
+        {% image './src/images/tshirts/kaizo_1_alt.png', 'new hallway', 'cs-picture cs-picture-3', 'lazy', '(max-width: 3000px) 1000px, 1000px'%}
+        <!-- {% image './src/images/tshirts/kaizo_1_alt.png', 'new home construction', 'cs-picture cs-picture-2', 'lazy', '(max-width: 600px) 200px, 400px'%} -->
+        <!-- {% image './src/images/portfolio/port7.jpg', 'building a new wall', 'cs-picture cs-picture-3', 'lazy', '(max-width: 600px) 200px, 400px'%} -->
+        <!-- To add more images, copy and paste this row's picture tags here in order from cs-picture-1 to cs-picture-3 and they will maintain the same layout-->
+      </div>
+    </div>
+    <a href="/projects" class="button-solid">View Full Gallery</a>
+  </div>
 </section>
 
 <!-- ============================================ -->
@@ -56,42 +85,42 @@ eleventyNavigation:
       <img
         aria-hidden="true"
         decoding="async"
-        src="/assets/svgs/service1.svg"
+        src="/assets/svgs/weight-svgrepo-com.svg"
         alt="appliance"
         width="48"
         height="48"
 />
     </picture>
-    <h2>Service 1</h2>
-    <p>Talk about the service with keywords people will be searching for it by. Keep it 1-2 sentences.</p>
+    <h2>200 gsm</h2>
+    <p>Premium Weight Cotton.</p>
   </div>
   <div class="card">
     <picture>
       <img
         aria-hidden="true"
         decoding="async"
-        src="/assets/svgs/service2.svg"
+        src="/assets/svgs/tshirt-svgrepo-com.svg"
         alt="appliance"
         width="48"
         height="48"
 />
     </picture>
-    <h2>Service 2</h2>
-    <p>Talk about the service with keywords people will be searching for it by. Keep it 1-2 sentences.</p>
+    <h2>Direct-to-Garment Printing</h2>
+    <p>Cutting-Edge Color, Unmatched Detail.</p>
   </div>
   <div class="card">
     <picture>
       <img
         aria-hidden="true"
         decoding="async"
-        src="/assets/svgs/service3.svg"
+        src="/assets/svgs/cotton-svgrepo-com.svg"
         alt="appliance"
         width="48"
         height="48"
 />
     </picture>
-    <h2>Service 3</h2>
-    <p>Talk about the service with keywords people will be searching for it by. Keep it 1-2 sentences.</p>
+    <h2>100% Cotton</h2>
+    <p>Sustainaibly sourced cotton.</p>
   </div>
 </section>
 
@@ -171,42 +200,6 @@ eleventyNavigation:
       </p>
       <a href="" class="button-solid">Learn More About Thing</a>
     </div>
-  </div>
-</section>
-
-<!-- ============================================ -->
-<!--                   Gallery                    -->
-<!-- ============================================ -->
-
-<section id="gallery">
-  <div class="cs-container">
-    <span class="cs-topper">Our Portfolio</span>
-    <h2 class="cs-title">Et orci volutpat, back up generator installations</h2>
-    <div class="cs-image-group">
-      <!-- Row 1-->
-      <div class="cs-row cs-row-1">
-        {% image './src/images/portfolio/port1.jpg', 'new hallway', 'cs-picture cs-picture-1', 'lazy', '(max-width: 600px) 200px, 400px'%}
-        {% image './src/images/portfolio/port4.jpg', 'new home construction', 'cs-picture cs-picture-2', 'lazy', '(max-width: 600px) 200px, 400px'%}
-        {% image './src/images/portfolio/port7.jpg', 'building a new wall', 'cs-picture cs-picture-3', 'lazy', '(max-width: 600px) 200px, 400px'%}
-        <!-- To add more images, copy and paste this row's picture tags here in order from cs-picture-1 to cs-picture-3 and they will maintain the same layout-->
-      </div>
-      <!-- Row 2 -->
-      <div class="cs-row cs-row-2">
-        {% image './src/images/portfolio/port2.jpg', 'new kitchen', 'cs-picture cs-picture-1', 'lazy', '(max-width: 600px) 200px, 400px'%}
-        {% image './src/images/portfolio/port5.jpg', 'apartment addition', 'cs-picture cs-picture-2', 'lazy', '(max-width: 600px) 200px, 400px'%}
-        {% image './src/images/portfolio/port8.jpg', 'kew kitchen cabinets', 'cs-picture cs-picture-3', 'lazy', '(max-width: 600px) 200px, 400px'%}
-        <!-- To add more images, copy and paste this row's picture tags here in order from cs-picture-1 to cs-picture-3 and they will maintain the same layout-->
-      </div>
-      <!-- Row 3 -->
-      <div class="cs-row cs-row-3">
-        {% image './src/images/portfolio/port3.jpg', 'new kitchen', 'cs-picture cs-picture-1', 'lazy', '(max-width: 600px) 200px, 400px'%}
-        {% image './src/images/portfolio/port6.jpg', 'apartment addition', 'cs-picture cs-picture-2', 'lazy', '(max-width: 600px) 200px, 400px'%}
-        {% image './src/images/portfolio/port9.jpg', 'kew kitchen cabinets', 'cs-picture cs-picture-3', 'lazy', '(max-width: 600px) 200px, 400px'%}
-
-        <!-- To add more images, copy and paste this row's picture tags here in order from cs-picture-1 to cs-picture-3 and they will maintain the same layout-->
-      </div>
-    </div>
-    <a href="/projects" class="button-solid">View Full Gallery</a>
   </div>
 </section>
 
